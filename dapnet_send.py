@@ -11,7 +11,7 @@ dapnet_emergency = "false"
 if (len(sys.argv)<3):
 	print "dapnet_send.py - version 1.0 - by Johan Denoyer (f4wat@f4wat.xyz)"
 	print "Usage : "
-	print sys.argv[0]+" destination_call \"message\" (between quotes)"
+	print sys.argv[0]+" destination_call \"message\""
 	exit(0)
 
 destination = str(sys.argv[1])
