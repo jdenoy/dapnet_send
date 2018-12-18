@@ -15,6 +15,31 @@ Install all python requirements :
 sudo pip install -r requirements.txt
 ```
 
+## Usage
+
+note : values in between '[' ']' are optional
+
+* dapnet_send.py
+```
+dapnet_send.py callsign "message" [debug]
+```
+* dapnet_bulk_send.py
+```
+dapnet_bulk_send.py callsign_file_list "message" [debug]
+```
+callsign_file_list is a file containing one callsign per line. End of line being in 'LF' mode.
+Ex :
+```
+callsign1
+callsign2
+callsign3
+```
+
+* dapnet_rubric_send.py
+```
+dapnet_rubric_send.py rubric "message" [debug]
+```
+
 ## Authors
 
 * **Johan DENOYER** - *Initial work* - [jdenoy](https://github.com/jdenoy)
