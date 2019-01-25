@@ -29,7 +29,7 @@ headers = {
     'Content-Type': 'application/json',
 }
 
-data = '{ "text": "'+destination+': '+message+'", "callSignNames": ["'+destination+'"], "transmitterGroupNames": ["'+dapnet_txgroup+'"], "emergency": '+dapnet_emergency+' }'
+data = '{ "text": "'+dapnet_user.upper()+': '+message+'", "callSignNames": ["'+destination+'"], "transmitterGroupNames": ["'+dapnet_txgroup+'"], "emergency": '+dapnet_emergency+' }'
 
 response = requests.post('http://www.hampager.de:8080/calls', headers=headers, data=data, auth=(dapnet_user, dapnet_pass))
 if (debug()):
