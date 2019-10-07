@@ -15,6 +15,12 @@ Install all python requirements :
 sudo pip install -r requirements.txt
 ```
 
+or install the python-requests package :
+
+```
+sudo apt-get install python-requests
+```
+
 ## Usage
 
 note : values in between '[' ']' are optional
