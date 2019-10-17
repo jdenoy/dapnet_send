@@ -17,7 +17,7 @@ if (len(sys.argv)<3):
 	print ("dapnet_rubric_send.py - version 1.0 - by Johan Denoyer (f4wat@f4wat.xyz)")
 	print ("Usage : ")
 	print (sys.argv[0]+" destination_rubric \"message\" [debug]")
-    print ("debug is optionnal (that's why it's between [])")
+	print ("debug is optionnal (that's why it's between [])")
 	exit(0)
 
 destination = str(sys.argv[1])
